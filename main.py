@@ -228,7 +228,7 @@ class Ui_Dialog(QtWidgets.QWidget):
         self.lineEdit_3 = QtWidgets.QLineEdit(self.tab_2_crypt)
         self.lineEdit_3.setGeometry(QtCore.QRect(0, 40, 151, 20))
         self.lineEdit_3.setInputMethodHints(
-            QtCore.Qt.ImhNoAutoUppercase | QtCore.Qt.ImhNoPredictiveText | QtCore.Qt.ImhSensitiveData)
+        QtCore.Qt.ImhNoAutoUppercase | QtCore.Qt.ImhNoPredictiveText | QtCore.Qt.ImhSensitiveData)
         self.lineEdit_3.setInputMask("")
         self.lineEdit_3.setEchoMode(QtWidgets.QLineEdit.PasswordEchoOnEdit)
         self.lineEdit_3.setClearButtonEnabled(True)
